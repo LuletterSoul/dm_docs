@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.vero.dm.service.grouper.AbstractGroupingStrategy</OriginalElement>
+  <nodes>
+    <node x="551.2710648154092" y="0.0">com.vero.dm.service.grouper.MiningGrouper</node>
+    <node x="1054.874590274419" y="535.6475169830165">com.vero.dm.service.grouper.GroupingStrategy</node>
+    <node x="886.99415396618" y="895.4343559748078">com.vero.dm.service.grouper.AbstractGroupingStrategy</node>
+    <node x="-23.967825912079093" y="824.3183513680515">com.vero.dm.service.grouper.RandomGroupingStrategy</node>
+    <node x="308.15487254131364" y="1210.7928437850103">com.vero.dm.service.grouper.SimpleGroupingStrategy</node>
+    <node x="-22.857142857142833" y="286.548873970964">com.vero.dm.service.grouper.RestrictGroupingStrategy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.vero.dm.service.grouper.MiningGrouper" target="com.vero.dm.service.grouper.GroupingStrategy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.vero.dm.service.grouper.GroupingStrategy" target="com.vero.dm.service.grouper.MiningGrouper">
+      <point x="-16.152223032456163" y="0.0" />
+      <point x="0.0" y="12.733915436535426" />
+    </edge>
+    <edge source="com.vero.dm.service.grouper.RestrictGroupingStrategy" target="com.vero.dm.service.grouper.MiningGrouper">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.vero.dm.service.grouper.RandomGroupingStrategy" target="com.vero.dm.service.grouper.AbstractGroupingStrategy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.vero.dm.service.grouper.SimpleGroupingStrategy" target="com.vero.dm.service.grouper.MiningGrouper">
+      <point x="-10.268068374317608" y="0.0" />
+      <point x="-10.268068374317643" y="0.0" />
+    </edge>
+    <edge source="com.vero.dm.service.grouper.RandomGroupingStrategy" target="com.vero.dm.service.grouper.MiningGrouper">
+      <point x="-3.9587001637931962" y="-3.05429091823018" />
+      <point x="-3.958700163793239" y="-3.0542909182302083" />
+    </edge>
+    <edge source="com.vero.dm.service.grouper.RandomGroupingStrategy" target="com.vero.dm.service.grouper.SimpleGroupingStrategy">
+      <point x="-6.899035182450916" y="0.0" />
+      <point x="-6.899035182450888" y="0.0" />
+    </edge>
+    <edge source="com.vero.dm.service.grouper.SimpleGroupingStrategy" target="com.vero.dm.service.grouper.AbstractGroupingStrategy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.vero.dm.service.grouper.RestrictGroupingStrategy" target="com.vero.dm.service.grouper.SimpleGroupingStrategy">
+      <point x="-5.289431696613974" y="0.0" />
+      <point x="-5.289431696613946" y="0.0" />
+    </edge>
+    <edge source="com.vero.dm.service.grouper.AbstractGroupingStrategy" target="com.vero.dm.service.grouper.GroupingStrategy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.vero.dm.service.grouper.MiningGrouper" target="com.vero.dm.service.grouper.SimpleGroupingStrategy">
+      <point x="10.268068374317629" y="0.0" />
+      <point x="10.268068374317608" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="1086.9609091939308" y="809.5714285714286" />
+  <SelectedNodes>
+    <node>com.vero.dm.service.grouper.RestrictGroupingStrategy</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
